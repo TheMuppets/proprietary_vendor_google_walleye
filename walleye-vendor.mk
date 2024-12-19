@@ -604,7 +604,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/vendor/lib/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpustats.so \
     vendor/google/walleye/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/google/walleye/proprietary/vendor/lib/libhalide_hexagon_host.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhalide_hexagon_host.so \
-    vendor/google/walleye/proprietary/vendor/lib/libhdrplusclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrplusclient.so \
     vendor/google/walleye/proprietary/vendor/lib/libhdrplusclientimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrplusclientimpl.so \
     vendor/google/walleye/proprietary/vendor/lib/libhdrplusmessenger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrplusmessenger.so \
     vendor/google/walleye/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
@@ -969,6 +968,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/vendor/radio/qcril_database/upgrade/9_remove_germany_ecc_110.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_remove_germany_ecc_110.sql
 
 PRODUCT_PACKAGES += \
+    libhdrplusclient \
     libsdsprpc \
     ModemService \
     QtiTelephonyService \
